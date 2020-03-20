@@ -1,0 +1,21 @@
+<h1>Seja Bem-Vindo!</h1>
+<p> <strong>Data: </strong><%= data_br(Date.today) %></p>
+<p><%= nome_aplicacao %></p>
+<!-- <p>
+    Raphael Molina
+</p>
+
+<p> A soma é: <%= 1+1 %> </p>
+<p> Seu nome de trás para frente é: <%= "Raphael".reverse %> </p>
+<% ax = "minha variável A" %>
+<p>Imprimindo a variável a: <%= ax %></p>
+<p>A data de hoje é: <%= Date.today %></p> -->
+
+<ul>
+    <li>
+        <a href="/coins">Cadastro de Moedas</a>
+    </li>
+    <li>
+        <%= link_to "Cadastro de Moedas", coins_path %>
+    </li>
+</ul>
